@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'yashkrp/restaurant-review-analyser'  // Update with your Docker Hub username and repository name
+        DOCKER_IMAGE = 'yashkrp/restaurant-review'  // Update with your Docker Hub username and repository name
         DOCKER_TAG = 'latest'
         REGISTRY = 'docker.io'  // Docker Hub registry (can be changed for private registries)
     }
