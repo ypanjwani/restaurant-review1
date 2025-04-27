@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub repository
-                git branch: 'main', url: 'https://github.com/ypanjwani/restaurant-review-analyser.git'  // Replace with your repository URL
+                git branch: 'main', url: 'https://github.com/ypanjwani/restaurant-review1.git'  // Replace with your repository URL
             }
         }
         
